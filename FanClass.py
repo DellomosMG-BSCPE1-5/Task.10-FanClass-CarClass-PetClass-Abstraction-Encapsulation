@@ -23,3 +23,7 @@ class Fan:
     
     def get_on(self):
         return self.__on
+
+#the mutator methods for all four data fields
+    def set_speed(self, speed):
+         self.__speed = speed
