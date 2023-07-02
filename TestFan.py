@@ -1,0 +1,1 @@
+from FanClass import Fan

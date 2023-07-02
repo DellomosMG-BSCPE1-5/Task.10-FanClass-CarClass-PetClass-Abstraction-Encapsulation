@@ -11,3 +11,15 @@ class Fan:
         self.__color = color
         self.__on = on
 #create the methods
+#the accessor methods for all four data fields
+    def get_speed(self):
+        return self.__speed
+    
+    def get_radius(self):
+        return self.__radius
+
+    def get_color(self):
+        return self.__color
+    
+    def get_on(self):
+        return self.__on
