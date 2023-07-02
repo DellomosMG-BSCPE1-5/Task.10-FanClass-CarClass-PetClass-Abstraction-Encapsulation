@@ -1,5 +1,10 @@
 #create a class named Car
+class Car:
 #create the constructor
+    def __init__(self, year_model, make, speed = 0):
+        self.__year_model = year_model
+        self.__make = make
+        self.__speed = speed
 #create the necessary methods
 #accelerate()
     #the speed data attribute will increase by 5 
