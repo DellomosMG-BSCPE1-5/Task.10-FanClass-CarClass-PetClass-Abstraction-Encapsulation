@@ -35,4 +35,8 @@ class Fan:
         self.__color = color
 
     def set_on(self, on):
-        self.__on = on
+        if self.__on == True:
+            print("Turning Off the Fan...")
+        else:
+            print("Turning On the Fan...")
+            self.__on = on
