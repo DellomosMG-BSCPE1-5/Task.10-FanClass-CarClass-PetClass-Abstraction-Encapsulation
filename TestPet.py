@@ -11,7 +11,7 @@ while True:
     pet_header.pet()
 
     #pet's data
-    print("\n")
+    print(Fore.WHITE + Style.NORMAL + "\n")
     pet_data.set_name()
     pet_data.set_animal_type()
     pet_data.set_age()

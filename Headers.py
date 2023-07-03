@@ -12,4 +12,4 @@ class Header:
 
     def pet(self):
         program_title = text2art("  Pet  ", font='tarty1', chr_ignore=True)
-        print(Fore.WHITE + program_title)
+        print(Fore.YELLOW + program_title)
