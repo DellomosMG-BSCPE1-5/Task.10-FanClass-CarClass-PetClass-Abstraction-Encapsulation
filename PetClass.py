@@ -20,7 +20,7 @@ class Pet:
             try:
                 self.__age = int(input("Enter the age of you pet: "))
             except (ValueError):
-                print(" Invalid Input. Please enter whole number only.")
+                print("Invalid input. Please enter a valid whole number for the pet's age.")
             else:
                 break   
 

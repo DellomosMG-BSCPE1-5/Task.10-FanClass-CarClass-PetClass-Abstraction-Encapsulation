@@ -7,6 +7,7 @@ car_header = Header()
 car_header.car()
 
 car_1 = Car("Model 2000", "Test Drive...")
+
 print(Fore.WHITE + Style.NORMAL + "\n", car_1.get_year_model(), car_1.get_make())
 
 print(Fore.WHITE + Style.NORMAL + "\n[Accelerating...]", "=" * 86)

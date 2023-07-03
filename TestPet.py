@@ -27,4 +27,4 @@ while True:
     #if user typed "y", go back to the top.
     if again.upper() == "Y":  
         continue
-
+    break
