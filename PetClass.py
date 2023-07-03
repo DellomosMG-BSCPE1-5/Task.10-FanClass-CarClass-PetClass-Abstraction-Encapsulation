@@ -8,7 +8,7 @@ class Pet:
         self.__age = age
 
     #methods
-    #mutator for all data attributes
+    #mutator method for all data attributes
     def set_name(self):
         self.__name = str(input("Enter the name of your pet: "))
     

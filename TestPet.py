@@ -1,17 +1,17 @@
 from Headers import Header
 from PetClass import Pet
-#header
+
+#objects
 pet_header = Header()
-pet_header.pet()
+pet_data = Pet()
 
-pet_1 = Pet()
-pet_1.set_age()
+while True:
+    #header
+    pet_header.pet()
 
+    #pet's data
+    print("\n")
+    pet_data.set_name()
+    pet_data.set_animal_type()
+    pet_data.set_age()
 
-
-
-
-
-#display
-
-print("age: ", pet_1.get_age())
