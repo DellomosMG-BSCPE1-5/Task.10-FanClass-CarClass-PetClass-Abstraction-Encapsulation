@@ -28,7 +28,7 @@ class Car:
 
     #brake()
     def brake(self):
-        #if the  speed data attribute is equal or less than to zero, then it will be equal to zero.
+        #if the speed data attribute is equal or less than to zero, then it will be equal to zero.
         if self.__speed <= 0:
             self.__speed = 0
         #else, the speed data attribute will decrease by 5
